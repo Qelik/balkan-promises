@@ -1,0 +1,56 @@
+nav {
+    background: rgba(0, 110, 255, 0.2) !important;
+    border-radius: 16px !important;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+    backdrop-filter: blur(5px) !important;
+    -webkit-backdrop-filter: blur(5px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+
+nav p{
+    margin: 0;
+    padding: 16px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    list-style-type: none;
+    padding: 0;
+}
+
+li a {
+    color: white !important;
+    padding: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    color: white !important;
+}
+
+
+.dropdown-menu {
+    background: rgba(88, 165, 253, 0.2) !important;
+    border-radius: 16px !important;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+    backdrop-filter: blur(5px) !important;
+    -webkit-backdrop-filter: blur(5px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+
+.dropdown-item:hover {
+    background: rgba(255, 255, 255, 0.2) !important;
+    border-radius: 2% !important;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+    backdrop-filter: blur(5px) !important;
+    -webkit-backdrop-filter: blur(5px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+}

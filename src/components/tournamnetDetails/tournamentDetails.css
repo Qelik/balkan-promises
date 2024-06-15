@@ -1,0 +1,56 @@
+.tournamnetDetailsWrap {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../assets/images/fusha.jpg');
+    background-size: cover;
+}
+
+.tournamentsWraper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    backdrop-filter: brightness(50%);
+    color: white;
+}
+
+.tournamnetDetailsHeading {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    backdrop-filter: brightness(50%);
+    color: white;
+}
+
+.tournametDetail {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.left {
+    align-items: flex-start;
+}
+
+.right {
+    align-items: flex-end;
+}
+
+.tournamentDetailHead {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}

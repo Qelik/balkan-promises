@@ -1,0 +1,72 @@
+.image-holder {
+    position: relative;
+    width: 100%;
+}
+
+.image-holder img{
+    object-fit: cover !important;
+    height: 100vh;
+    width: 100%;
+}
+
+.text-holder {
+    position: absolute;
+    padding: 20px;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.2) !important;
+    border-radius: 16px !important;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+    backdrop-filter: blur(5px) !important;
+    -webkit-backdrop-filter: blur(5px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+
+.tournaments {
+    background-image: url('../../assets/images/Ohrid2.jpg');
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.tournaments::before {
+    content: '\A';
+    position: absolute;
+    width: 100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.6);
+    opacity: 1;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+.tournaments div p {
+    width: 100%;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.tournaments div h1 {
+    position: relative;
+    color: white;
+}
+
+.transparent th {
+    color: white !important;
+}
+
+.transparent td {
+    background-color: transparent !important;
+    color: white !important;
+}
+
+.states {
+    background-color: lightgray;
+}
+
+.footer {
+    background-color: #bfe7ff;
+}

@@ -1,0 +1,52 @@
+.teams {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../assets/images/stadium.jpg');
+    background-position: center;
+}
+
+.teams .heading {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: brightness(50%);
+    width: 100%;
+}
+
+.teams .heading .red,
+.teams .heading .red-i {
+    color: red;
+}
+
+.teams .heading .red-i {
+    font-style: italic;
+}
+
+.teams .heading .white,
+.teams .heading .white_ {
+    color: white;
+}
+
+.teams .heading .white_ {
+    text-decoration: underline;
+}
+
+.teams .teamList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    backdrop-filter: brightness(50%);
+    width: 100%;
+    font-style: italic;
+}
+
+.teams .teamList p {
+    color: white;
+}
