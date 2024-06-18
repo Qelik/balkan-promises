@@ -6,7 +6,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import football from "../../assets/images/football-kids.jpg";
 import image1 from "../../assets/images/image1_0.jpg";
-import ohrid from "../../assets/images/Ohrid2.jpg";
 import tournament3 from "../../assets/images/summer-tournaments.jpg"
 import tournament4 from "../../assets/images/tournament4.jpeg"
 import tournament5 from "../../assets/images/tournament5.jpg"
@@ -14,33 +13,33 @@ import tournament5 from "../../assets/images/tournament5.jpg"
 const data = [
     {
         name: 'Tournament 1',
-        img: football,
-        date: '07 - 10 December 2023',
-        to: '/tournament#tournament1'
-    },
-    {
-        name: 'Tournament 2',
         img: image1,
         date: '17 - 20 June 2024',
         to: '/tournament#tournament2'
     },
     {
-        name: 'Tournament 3',
+        name: 'Tournament 2',
         img: tournament3,
         date: '20 - 23 June 2024',
         to: '/tournament#tournament3'
     },
     {
-        name: 'Tournament 4',
+        name: 'Tournament 3',
         img: tournament4,
         date: '23 - 26 June 2024',
         to: '/tournament#tournament4'
     },
     {
-        name: 'Tournament 5',
+        name: 'Tournament 4',
         img: tournament5,
         date: '25 - 28 August 2024',
         to: '/tournament#tournament4'
+    },
+    {
+        name: 'Tournament 5',
+        img: football,
+        date: '07 - 10 December 2024',
+        to: '/tournament#tournament1'
     }
 ]
 
@@ -49,7 +48,33 @@ const settings = {
     infinite: true,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 3
+    slidesToScroll: 3,
+    responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            initialSlide: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
 }
 
 const CardSlider = () => {

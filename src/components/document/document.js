@@ -9,7 +9,7 @@ const Document = () => {
         <>
             <Header />
             <div className='documentWrapper py-5'>
-                <div className='documentHead py-5'>
+                <div className='documentHead text-center py-5'>
                     <img src={docDownload}></img>
                     <h1>Downloadable documents</h1>
                 </div>

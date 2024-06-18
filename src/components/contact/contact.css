@@ -29,3 +29,21 @@
     align-items: center;
     gap: 50px;
 }
+
+@media screen and (max-width: 480px) {
+    .contactWrapper .contacts {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contactWrapper .contacts {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .contactWrapper .contacts {
+        width: 80%;
+    }
+}

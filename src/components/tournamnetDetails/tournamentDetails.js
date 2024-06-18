@@ -23,8 +23,8 @@ const TournamentDetails = () => {
     }, [location]);
     return (
         <>
-            <div className='tournamnetDetailsWrap'>
-                <div className='tournamnetDetailsHeading py-5'>
+            <div className='tournamnetDetailsWrap mx-auto'>
+                <div className='tournamnetDetailsHeading text-center py-5'>
                     <h1>TOURNAMENT DATES AND AGES</h1>
                 </div>
                 <div className='tournamentsWraper py-5'>

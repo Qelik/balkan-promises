@@ -39,12 +39,13 @@
 .teams .teamList {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: flex-start;
     backdrop-filter: brightness(50%);
     width: 100%;
     font-style: italic;
+    gap: 100px;
 }
 
 .teams .teamList p {

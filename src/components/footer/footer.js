@@ -54,17 +54,10 @@ const Footer = () => {
                         <hr />
                         <p>MITKO STOJANOSKI</p>
                         <p>Director of the Tournament</p>
-                        {/* <hr />
-                        <p>TONI ANDRESKI</p>
-                        <p>Director of the Jury team</p> */}
                         <hr />
                         <p>ROLAND MEHMETI</p>
                         <p>Coordinator for Albania | Kosova | Montenegro | Greece</p>
                         <Link to="tel:+355692359994">+355692359994</Link>
-                        {/* <hr />
-                        <p>ALEKSANDAR STRUMOSKI</p>
-                        <p>Coordinator for North Macedonia | Bulgaria | Romania | Turkey | Serbia</p>
-                        <Link to="tel:+38978550087">++38978550087</Link> */}
                     </div>
                 </div>
             </div>

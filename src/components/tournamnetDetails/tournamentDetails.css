@@ -8,6 +8,10 @@
     background-size: cover;
 }
 
+.tournamnetDetails {
+    width: 80%;
+}
+
 .tournamentsWraper {
     display: flex;
     flex-direction: column;
@@ -17,6 +21,7 @@
     width: 100%;
     backdrop-filter: brightness(50%);
     color: white;
+    gap: 40px;
 }
 
 .tournamnetDetailsHeading {

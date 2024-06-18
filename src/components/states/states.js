@@ -41,8 +41,7 @@ const States = () => {
                     <img src={greece} alt='' />
                     <p>Greece</p>
                 </div>
-            </div>
-            <div className='state-image-holder'>
+            
                 <div className='state-image-item'>
                     <img src={montenegro} alt='' />
                     <p>Montenegro</p>

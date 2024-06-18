@@ -14,10 +14,10 @@ const Tournament = () => {
             <div className='confirmedTeams'>
                 <Teams />
             </div>
-            <div className='tournamentDetails'>
+            <div className='tournamentDetails mx-auto'>
                 <TournamentDetails />
             </div>
-            <div className='tournamentRegister py-5'>
+            <div className='tournamentRegister mx-auto py-5'>
                 <div className='titleRegister py-5'>
                     <h1>TOURNAMENT REGISTRATION</h1>
                 </div>
@@ -35,7 +35,7 @@ const Tournament = () => {
             <div className='tournametProgram'>
                 <TournamentProgram />
             </div>
-            <div className='tournamentSystem py-5'>
+            <div className='tournamentSystem text-center py-5 mx-auto'>
                 <h1 className='py-5'>TOURNAMENT GRAPHIC SYSTEM</h1>
                 <img src={graphSystem}></img>
             </div>

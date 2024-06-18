@@ -4,16 +4,16 @@ import './teams.css';
 const Teams = () => {
     return (
         <>
-            <div className='teams py-5'>
-                <div className='heading py-5'>
-                    <h1 className='red'>BALKAN PROMISES</h1>
+            <div className='teams'>
+                <div className='heading text-center py-5'>
+                    <h1 className='red pt-5'>BALKAN PROMISES</h1>
                     <h2 className='white'>Football Tournament</h2>
                     <h2 className='white_'>OHRID - NORTH MACEDONIA</h2>
                     <h3 className='red-i'>GENERATION 2010 2011 2012 2013 2014 2015</h3>
                     <h2 className='white'>TEAMS CONFIRMED</h2>
                     <h2 className='white'>JUNE 2024</h2>
                 </div>
-                <div className='teamList row py-5'>
+                <div className='teamList py-5'>
                     <div className='col-2'>
                         <p>KF VARDAR</p>
                         <p>AF STUDENTI</p>
@@ -59,7 +59,7 @@ const Teams = () => {
                         <p>FC FIERI</p>
                         <p>FK NAPREDOK</p>
                     </div>
-                    <div className='col-1'>
+                    <div className='col-2'>
                         <p>KF POBEDA</p>
                         <p>AS UNITED</p>
                         <p>AF YLBERI</p>

@@ -42,3 +42,33 @@
     justify-content: center;
     width: 100%;
 }
+
+@media screen and (max-width: 480px) {
+    .aboutIntro img {
+        width: 80%;
+    }
+
+    .galleryWrapper {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .aboutIntro img {
+        width: 80%;
+    }
+
+    .galleryWrapper {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .aboutIntro img {
+        width: 80%;
+    }
+
+    .galleryWrapper {
+        width: 80%;
+    }
+}

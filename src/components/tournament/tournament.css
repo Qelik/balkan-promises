@@ -4,6 +4,7 @@
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+    width: 80%;
 }
 
 .tournamentSystem {
@@ -12,4 +13,27 @@
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+    width: 80%;
+}
+
+.tournamentSystem img {
+    width: 50%;
+}
+
+@media screen and (max-width: 480px) {
+    .tournamentSystem img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .tournamentSystem img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .tournamentSystem img {
+        width: 100%;
+    }
 }
