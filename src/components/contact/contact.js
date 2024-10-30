@@ -20,9 +20,9 @@ const Contact = () => {
                             <Link to="tel:+38978341646">+38978341646</Link>
                         </div>
                         <div className='person'>
-                            <p>ROLAND MEHMETI</p>
+                            <p>PAVLI BUNECI & YOUNG STARS TOURNAMENTS</p>
                             <p>Coordinator for Albania | Kosova | Montenegro | Greece</p>
-                            <Link to="tel:+355692359994">+355692359994</Link>
+                            <Link to="tel:+355674911775">+ 355 67 491 1775 </Link> &nbsp;&nbsp; : &nbsp; <Link to="tel:+355693381633">+355 69 338 1633</Link>
                         </div>
                         <div className='person'>
                             <p>ALEKSANDAR STRUMOSKI</p>
