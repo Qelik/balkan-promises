@@ -32,7 +32,7 @@ const Contact = () => {
                         <div className='person'>
                             <p>Sladjan Mariç</p>
                             <p>Coordinator for Croatia | Bosnia and Herzegovina</p>
-                            <Link to="mailto:sladjanmaric08@gmail.com">sladjanmaric08@gmail.com</Link>
+                            <Link to="tel:+38763679690">+ 387 63 679 690</Link> &nbsp;&nbsp; : &nbsp;&nbsp;<Link to="mailto:sladjanmaric08@gmail.com">sladjanmaric08@gmail.com</Link>
                         </div>
                     </div>
                     <div className='contactMap py-5'>
