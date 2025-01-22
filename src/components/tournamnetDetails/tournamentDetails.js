@@ -31,7 +31,7 @@ const TournamentDetails = () => {
                     <div className='tournametDetail left' id='tournament1'>
                         <div className='tournamentDetailHead'>
                             <h1>TOURNAMENT 1</h1>
-                            <h2>December 07-10 2023</h2>
+                            <h2>December 07-10 {new Date().getFullYear()}</h2>
                         </div>
                         <div className='tournamentDetailList'>
                             <p>U-17 &nbsp; 01.01.2007 - 31.12.2008 &nbsp; (10+1)</p>
@@ -45,7 +45,7 @@ const TournamentDetails = () => {
                     <div className='tournametDetail right' id='tournament2'>
                         <div className='tournamentDetailHead'>
                             <h1>TOURNAMENT 2</h1>
-                            <h2>JUNE 17-20 2024</h2>
+                            <h2>JUNE 17-20 {new Date().getFullYear()}</h2>
                         </div>
                         <div className='tournamentDetailList'>
                             <p>U-14 &nbsp; 01.01.2010 - 31.12.2010 &nbsp; (10+1)</p>
@@ -59,7 +59,7 @@ const TournamentDetails = () => {
                     <div className='tournametDetail left' id='tournament3'>
                         <div className='tournamentDetailHead'>
                             <h1>TOURNAMENT 3</h1>
-                            <h2>JUNE 20-23 2024</h2>
+                            <h2>JUNE 20-23 {new Date().getFullYear()}</h2>
                         </div>
                         <div className='tournamentDetailList'>
                             <p>U-14 &nbsp; 01.01.2010 - 31.12.2010 &nbsp; (10+1)</p>
@@ -73,7 +73,7 @@ const TournamentDetails = () => {
                     <div className='tournametDetail right' id='tournament4'>
                         <div className='tournamentDetailHead'>
                             <h1>TOURNAMENT 4</h1>
-                            <h2>JUNE 23-26 2024</h2>
+                            <h2>JUNE 23-26 {new Date().getFullYear()}</h2>
                         </div>
                         <div className='tournamentDetailList'>
                             <p>U-14 &nbsp; 01.01.2010 - 31.12.2010 &nbsp; (10+1)</p>

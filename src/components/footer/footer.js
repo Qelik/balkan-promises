@@ -62,7 +62,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className='madeBy'>
-                <p>© Çelik Hasanaj, 2024, All rights reserved.</p>
+                <p>© Çelik Hasanaj, {new Date().getFullYear()}, All rights reserved.</p>
             </div>
         </>
     );

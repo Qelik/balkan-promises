@@ -14,31 +14,31 @@ const data = [
     {
         name: 'Tournament 1',
         img: image1,
-        date: '17 - 20 June 2024',
+        date: '17 - 20 June',
         to: '/tournament#tournament2'
     },
     {
         name: 'Tournament 2',
         img: tournament3,
-        date: '20 - 23 June 2024',
+        date: '20 - 23 June',
         to: '/tournament#tournament3'
     },
     {
         name: 'Tournament 3',
         img: tournament4,
-        date: '23 - 26 June 2024',
+        date: '23 - 26 June',
         to: '/tournament#tournament4'
     },
     {
         name: 'Tournament 4',
         img: tournament5,
-        date: '25 - 28 August 2024',
+        date: '25 - 28 August',
         to: '/tournament#tournament4'
     },
     {
         name: 'Tournament 5',
         img: football,
-        date: '07 - 10 December 2024',
+        date: '07 - 10 December',
         to: '/tournament#tournament1'
     }
 ]
@@ -91,7 +91,7 @@ const CardSlider = () => {
                                 </div>
                                 <div className='card-details'>
                                     <p className='text-xl'>{d.name}</p>
-                                    <p>{d.date}</p>
+                                    <p>{d.date} {new Date().getFullYear()}</p>
                                     <Link className='button-t' to={d.to}>Details</Link>
                                 </div>
                             </div>
