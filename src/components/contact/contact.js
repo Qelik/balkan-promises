@@ -21,8 +21,13 @@ const Contact = () => {
                         </div>
                         <div className='person'>
                             <p>PAVLI BUNECI & YOUNG STARS TOURNAMENTS</p>
-                            <p>Coordinator for Albania | Kosova | Montenegro | Greece</p>
+                            <p>Coordinator for Albania | Montenegro | Greece</p>
                             <Link to="tel:+355674911775">+ 355 67 491 1775 </Link> &nbsp;&nbsp; : &nbsp; <Link to="tel:+355693381633">+355 69 338 1633</Link>
+                        </div>
+                        <div className='person'>
+                            <p>NEXHAT SADRIA</p>
+                            <p>Coordinator for Kosova</p>
+                            <Link to="tel:+38348600098">+383 48 600 098</Link>
                         </div>
                         <div className='person'>
                             <p>ALEKSANDAR STRUMOSKI</p>
