@@ -14,13 +14,13 @@ const data = [
     {
         name: 'Tournament 1',
         img: image1,
-        date: '17 - 20 June',
+        date: '16 - 19 June',
         to: '/tournament#tournament2'
     },
     {
         name: 'Tournament 2',
         img: tournament3,
-        date: '20 - 23 June',
+        date: '19 - 22 June',
         to: '/tournament#tournament3'
     },
     {
@@ -32,14 +32,8 @@ const data = [
     {
         name: 'Tournament 4',
         img: tournament5,
-        date: '25 - 28 August',
+        date: '06 - 09 December',
         to: '/tournament#tournament4'
-    },
-    {
-        name: 'Tournament 5',
-        img: football,
-        date: '07 - 10 December',
-        to: '/tournament#tournament1'
     }
 ]
 
