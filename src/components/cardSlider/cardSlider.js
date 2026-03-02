@@ -4,11 +4,11 @@ import { Link} from "react-router-dom";
 import './cardSlider.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-// import football from "../../assets/images/football-kids.jpg";
-import image1 from "../../assets/images/image1_0.jpg";
-import tournament3 from "../../assets/images/summer-tournaments.jpg"
-// import tournament4 from "../../assets/images/tournament4.jpeg"
-// import tournament5 from "../../assets/images/tournament5.jpg"
+// import football from "../../assets/images/football-kids.webp";
+import image1 from "../../assets/images/image1_0.webp";
+import tournament3 from "../../assets/images/summer-tournaments.webp"
+// import tournament4 from "../../assets/images/tournament4.webp"
+// import tournament5 from "../../assets/images/tournament5.webp"
 
 const data = [
     {
