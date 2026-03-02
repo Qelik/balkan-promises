@@ -2,7 +2,7 @@ import './home.css';
 import Header from "../Header/header";
 import States from "../states/states"
 import Footer from '../footer/footer';
-import img1 from "../../assets/images/football-kids.jpg"
+import img1 from "../../assets/images/football-kids.webp"
 import CardSlider from '../cardSlider/cardSlider';
 import Partner from '../partners/partners';
 
