@@ -1,8 +1,7 @@
-import React from 'react';
 import './partners.css';
-import uefa from '../../assets/images/uefa.png';
-import ohri from '../../assets/images/bashkiaOher.png';
-import fairPlay from '../../assets/images/fairplay.png';
+import uefa from '../../assets/images/uefa.webp';
+import ohri from '../../assets/images/bashkiaOher.webp';
+import fairPlay from '../../assets/images/fairplay.webp';
 
 const Partner = () => {
     return (

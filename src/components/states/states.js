@@ -1,16 +1,15 @@
-import React from 'react';
 import './states.css';
-import macedonia from '../../assets/images/macedonia.jpg';
-import kosovo from '../../assets/images/kosovo.png';
-import albania from '../../assets/images/albania.png';
-import bosnia from '../../assets/images/bosnia.png';
-import bulgaria from '../../assets/images/bulgaria.png';
-import croatia from '../../assets/images/croatia.png';
+import macedonia from '../../assets/images/macedonia.webp';
+import kosovo from '../../assets/images/kosovo.webp';
+import albania from '../../assets/images/albania.webp';
+import bosnia from '../../assets/images/bosnia.webp';
+import bulgaria from '../../assets/images/bulgaria.webp';
+import croatia from '../../assets/images/croatia.webp';
 import greece from '../../assets/images/greece.webp';
-import montenegro from '../../assets/images/montenegro.png';
+import montenegro from '../../assets/images/montenegro.webp';
 import mut from '../../assets/images/mut.webp';
 import romania from '../../assets/images/romania.webp';
-import slovenia from '../../assets/images/slovenia.png';
+import slovenia from '../../assets/images/slovenia.webp';
 import turkey from '../../assets/images/turkey.webp';
 
 const States = () => {

@@ -1,13 +1,12 @@
-import React from 'react';
 import './about.css'
 import Header from "../Header/header";
 import Footer from "../footer/footer"
-import AgronMerko from "../../assets/images/AgronMerko.png"
-import gallery1 from "../../assets/images/gallery1.png"
-import gallery2 from "../../assets/images/gallery2.png"
-import stadiums from "../../assets/images/stadiums.png"
-import hotels from "../../assets/images/hotels.png"
-import city from "../../assets/images/city.png"
+import AgronMerko from "../../assets/images/AgronMerko.webp"
+import gallery1 from "../../assets/images/gallery1.webp"
+import gallery2 from "../../assets/images/gallery2.webp"
+import stadiums from "../../assets/images/stadiums.webp"
+import hotels from "../../assets/images/hotels.webp"
+import city from "../../assets/images/city.webp"
 
 const About = () => {
     return (

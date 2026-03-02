@@ -1,10 +1,9 @@
-import React from 'react';
 import './tournament.css'
 import Header from "../Header/header";
 import Teams from '../teams/teams';
 import TournamentDetails from '../tournamnetDetails/tournamentDetails';
 import TournamentProgram from '../tournamentProgram/tournamentProgram';
-import graphSystem from '../../assets/images/graphSystem.png'
+import graphSystem from '../../assets/images/graphSystem.webp'
 import Footer from '../footer/footer';
 
 const Tournament = () => {

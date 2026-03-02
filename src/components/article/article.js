@@ -1,4 +1,3 @@
-import React from 'react';
 import './article.css';
 import Header from '../Header/header';
 import Footer from '../footer/footer';

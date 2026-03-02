@@ -1,4 +1,3 @@
-import React from 'react';
 import './home.css';
 import Header from "../Header/header";
 import States from "../states/states"
@@ -13,7 +12,7 @@ const Home = () => {
             <Header />
             <div className='container-fluid p-0'>
                 <div className='image-holder'>
-                    <img src={img1} className='p-0 m-0' alt="hero image" />
+                    <img src={img1} priority className='p-0 m-0' alt="Balkan Promises Hero" />
                     <div className='text-holder text-center'>
                         <h1>BALKAN PROMISES</h1>
                         <h3>Football Tournament</h3>

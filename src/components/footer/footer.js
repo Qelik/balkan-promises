@@ -1,10 +1,9 @@
-import React from 'react';
 import './footer.css';
 import { Link } from 'react-router-dom';
-import logo from '../../assets/images/balkan-logo.png';
-import facebook from '../../assets/images/facebook.png';
-import instagram from '../../assets/images/instagram.png';
-import gmail from '../../assets/images/gmail.png'
+import logo from '../../assets/images/balkan-logo.webp';
+import facebook from '../../assets/images/facebook.webp';
+import instagram from '../../assets/images/instagram.webp';
+import gmail from '../../assets/images/gmail.webp';
 
 const Footer = () => {
     return (
@@ -29,9 +28,9 @@ const Footer = () => {
                                 </p>
                             </div>
                             <div className='socials'>
-                                <Link className='icon' to="https://www.facebook.com/profile.php?id=100085707533502" target='_blank'><img src={facebook} className='img-fluid' alt='Facebook'/></Link>
-                                <Link className='icon' to="https://www.instagram.com/balkan_promises/"><img src={instagram} className='img-fluid' alt='Instagram'/></Link>
-                                <Link className='icon' to="mailto:balkan.promises@gmail.com"><img src={gmail} className='img-fluid' alt='Gmail'/></Link>
+                                <Link className='icon' to="https://www.facebook.com/profile.php?id=100085707533502" target='_blank' rel="noopener noreferrer"><img src={facebook} className='img-fluid' alt='Facebook'/></Link>
+                                <Link className='icon' to="https://www.instagram.com/balkan_promises/" target='_blank' rel="noopener noreferrer"><img src={instagram} className='img-fluid' alt='Instagram'/></Link>
+                                <Link className='icon' to="mailto:balkan.promises@gmail.com" target='_blank' rel="noopener noreferrer"><img src={gmail} className='img-fluid' alt='Gmail'/></Link>
                             </div>
                         </div>
                     </div>
