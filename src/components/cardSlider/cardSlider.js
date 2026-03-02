@@ -1,54 +1,55 @@
-import React from 'react';
+// import React from 'react';
 import Slider from 'react-slick';
-import { Outlet, Link, useLocation } from "react-router-dom";
+import { Link} from "react-router-dom";
+// import { Outlet, Link, useLocation } from "react-router-dom";
 import './cardSlider.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import football from "../../assets/images/football-kids.jpg";
+// import football from "../../assets/images/football-kids.jpg";
 import image1 from "../../assets/images/image1_0.jpg";
 import tournament3 from "../../assets/images/summer-tournaments.jpg"
-import tournament4 from "../../assets/images/tournament4.jpeg"
-import tournament5 from "../../assets/images/tournament5.jpg"
+// import tournament4 from "../../assets/images/tournament4.jpeg"
+// import tournament5 from "../../assets/images/tournament5.jpg"
 
 const data = [
     {
         name: 'Tournament 1',
         img: image1,
-        date: '16 - 19 June',
+        date: '15 - 18 June',
         to: '/tournament#tournament2'
     },
     {
         name: 'Tournament 2',
         img: tournament3,
-        date: '19 - 22 June',
-        to: '/tournament#tournament3'
-    },
-    {
-        name: 'Tournament 3',
-        img: tournament4,
-        date: '23 - 26 June',
-        to: '/tournament#tournament4'
-    },
-    {
-        name: 'Tournament 4',
-        img: tournament5,
-        date: '06 - 09 December',
-        to: '/tournament#tournament4'
+        date: '21 - 24 June',
+        to: '/tournament#tournament2'
     }
+    // {
+    //     name: 'Tournament 3',
+    //     img: tournament4,
+    //     date: '23 - 26 June',
+    //     to: '/tournament#tournament4'
+    // },
+    // {
+    //     name: 'Tournament 4',
+    //     img: tournament5,
+    //     date: '06 - 09 December',
+    //     to: '/tournament#tournament4'
+    // }
 ]
 
 const settings = {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToShow: 2,
+    slidesToScroll: 2,
     responsive: [
         {
           breakpoint: 1024,
           settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3,
+            slidesToShow: 2,
+            slidesToScroll: 2,
             infinite: true,
             dots: true
           }

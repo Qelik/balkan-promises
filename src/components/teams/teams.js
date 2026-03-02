@@ -9,9 +9,9 @@ const Teams = () => {
                     <h1 className='red pt-5'>BALKAN PROMISES</h1>
                     <h2 className='white'>Football Tournament</h2>
                     <h2 className='white_'>OHRID - NORTH MACEDONIA</h2>
-                    <h3 className='red-i'>GENERATION 2010 2011 2012 2013 2014 2015</h3>
+                    <h3 className='red-i'>GENERATION 2012 2013 2014 2015 2016</h3>
                     <h2 className='white'>TEAMS CONFIRMED</h2>
-                    <h2 className='white'>JUNE 2024</h2>
+                    <h2 className='white'>JUNE 2026</h2>
                 </div>
                 <div className='teamList py-5'>
                     <div className='col-2'>
