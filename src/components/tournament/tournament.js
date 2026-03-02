@@ -37,7 +37,7 @@ const Tournament = () => {
             </div>
             <div className='tournamentSystem text-center py-5 mx-auto'>
                 <h1 className='py-5'>TOURNAMENT GRAPHIC SYSTEM</h1>
-                <img src={graphSystem}></img>
+                <img src={graphSystem} alt='Tournament Graphic System' />
             </div>
             <Footer />
         </div>

@@ -14,7 +14,7 @@ const Footer = () => {
                     <div className='footer-col-logo'>
                         <div className='col-3'>
                             <div className='logo'>
-                                <img src={logo} className='img-fluid' />
+                                <img src={logo} className='img-fluid' alt='Balkan Promises Logo'/>
                             </div>
                         </div>
                         <div className='col-9'>
@@ -29,9 +29,9 @@ const Footer = () => {
                                 </p>
                             </div>
                             <div className='socials'>
-                                <Link className='icon' to="https://www.facebook.com/profile.php?id=100085707533502" target='_blank'><img src={facebook} className='img-fluid' /></Link>
-                                <Link className='icon' to="https://www.instagram.com/balkan_promises/"><img src={instagram} className='img-fluid' /></Link>
-                                <Link className='icon' to="mailto:balkan.promises@gmail.com"><img src={gmail} className='img-fluid' /></Link>
+                                <Link className='icon' to="https://www.facebook.com/profile.php?id=100085707533502" target='_blank'><img src={facebook} className='img-fluid' alt='Facebook'/></Link>
+                                <Link className='icon' to="https://www.instagram.com/balkan_promises/"><img src={instagram} className='img-fluid' alt='Instagram'/></Link>
+                                <Link className='icon' to="mailto:balkan.promises@gmail.com"><img src={gmail} className='img-fluid' alt='Gmail'/></Link>
                             </div>
                         </div>
                     </div>

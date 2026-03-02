@@ -18,7 +18,7 @@ const About = () => {
                     <h1>About US</h1>
                 </div>
                 <div className='aboutIntro'>
-                    <img src={AgronMerko} className='bushi'></img>
+                    <img src={AgronMerko} className='bushi' alt='Agron Merko'></img>
                     <p>
                     Greetings
 dear participants in the football activity that
@@ -58,8 +58,8 @@ Agron MERKO!
                         <h1>Gallery</h1>
                     </div>
                     <div className='gallery'>
-                        <img src={gallery1}></img>
-                        <img src={gallery2}></img>
+                        <img src={gallery1} alt='Gallery 1'></img>
+                        <img src={gallery2} alt='Gallery 2'></img>
                     </div>
                 </div>
                 <div className='galleryWrapper py-5'>
@@ -67,7 +67,7 @@ Agron MERKO!
                         <h1>Stadiums</h1>
                     </div>
                     <div className='gallery'>
-                        <img src={stadiums}></img>
+                        <img src={stadiums} alt='Stadiums'></img>
                     </div>
                 </div>
                 <div className='galleryWrapper py-5'>
@@ -75,7 +75,7 @@ Agron MERKO!
                         <h1>Hotels</h1>
                     </div>
                     <div className='gallery'>
-                        <img src={hotels}></img>
+                        <img src={hotels} alt='Hotels'></img>
                     </div>
                 </div>
                 <div className='galleryWrapper py-5'>
@@ -83,7 +83,7 @@ Agron MERKO!
                         <h1>City Views</h1>
                     </div>
                     <div className='gallery'>
-                        <img src={city}></img>
+                        <img src={city} alt='City Views'></img>
                     </div>
                 </div>
             </div>

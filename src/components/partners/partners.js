@@ -8,9 +8,9 @@ const Partner = () => {
     return (
         <>
             <div className='partner-img-holder'>
-                <img src={uefa} alt='' />
-                <img src={ohri} alt='' />
-                <img src={fairPlay} alt='' />
+                <img src={uefa} alt='UEFA' />
+                <img src={ohri} alt='OHRI' />
+                <img src={fairPlay} alt='Fair Play' />
             </div>
         </>
     );

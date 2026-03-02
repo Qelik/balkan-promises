@@ -18,52 +18,52 @@ const States = () => {
         <>
             <div className='state-image-holder py-5'>
                 <div className='state-image-item'>
-                    <img src={macedonia} alt='' />
+                    <img src={macedonia} alt='North Macedonia' />
                     <p>North Macedonia</p>
                 </div>
                 <div className='state-image-item'>
-                    <img src={kosovo} alt='' />
+                    <img src={kosovo} alt='Kosova' />
                     <p>Kosova</p>
                 </div>
                 <div className='state-image-item'>
-                    <img src={albania} alt='' />
+                    <img src={albania} alt='Albania' />
                     <p>Albania</p>
                 </div>
                 <div className='state-image-item'>
-                    <img src={bosnia} alt='' />
+                    <img src={bosnia} alt='Bosnia and Herzegovina' />
                     <p>Bosnia and Herzegovina</p>
                 </div>
                 <div className='state-image-item'>
-                    <img src={croatia} alt='' />
+                    <img src={croatia} alt='Croatia' />
                     <p>Croatia</p>
                 </div>
                 <div className='state-image-item'>
-                    <img src={greece} alt='' />
+                    <img src={greece} alt='Greece' />
                     <p>Greece</p>
                 </div>
             
                 <div className='state-image-item'>
-                    <img src={montenegro} alt='' />
+                    <img src={montenegro} alt='Montenegro' />
                     <p>Montenegro</p>
                 </div>
                 <div className='state-image-item'>
-                    <img src={bulgaria} alt='' />
+                    <img src={bulgaria} alt='Bulgaria' />
                     <p>Bulgaria</p>
                 </div>
                 <div className='state-image-item'>
-                    <img src={mut} alt='' />
+                    <img src={mut} alt='Serbia' />
                     <p>Serbia</p>
                 </div>
                 <div className='state-image-item'>
-                    <img src={romania} alt='' />
+                    <img src={romania} alt='Romania' />
                     <p>Romania</p>
                 </div>
                 <div className='state-image-item'>
-                    <img src={slovenia} alt='' />
+                    <img src={slovenia} alt='Slovenia' />
                     <p>Slovenia</p>
                 </div>
                 <div className='state-image-item'>
-                    <img src={turkey} alt='' />
+                    <img src={turkey} alt='Turkey' />
                     <p>Turkey</p>
                 </div>
             </div>

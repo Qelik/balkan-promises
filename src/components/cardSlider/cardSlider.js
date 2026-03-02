@@ -82,7 +82,7 @@ const CardSlider = () => {
                         {data.map((d) => (
                             <div className='card-holder'>
                                 <div className='c-img'>
-                                    <img src={d.img} className='img-fluid' alt='' />
+                                    <img src={d.img} className='img-fluid' alt={d.name} />
                                 </div>
                                 <div className='card-details'>
                                     <p className='text-xl'>{d.name}</p>
