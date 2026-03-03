@@ -79,7 +79,7 @@ const CardSlider = () => {
                 <div className='mt-20'>
                     <Slider {...settings}>
                         {data.map((d) => (
-                            <div className='card-holder'>
+                            <div className='card-holder' key={d.name}>
                                 <div className='c-img'>
                                     <img src={d.img} className='img-fluid' alt={d.name} />
                                 </div>

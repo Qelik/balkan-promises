@@ -21,7 +21,7 @@ const Contact = () => {
                         <div className='person'>
                             <p>Ndinjon Permeti - NINI</p>
                             <p>Coordinator for Albania</p>
-                            <Link to="tel:+355674911775">+355 69 949 5345 </Link>
+                            <Link to="tel:+355699495345">+355 69 949 5345 </Link>
                         </div>
                         <div className='person'>
                             <p>NEXHAT SADRIA</p>

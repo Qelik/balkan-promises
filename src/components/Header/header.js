@@ -20,11 +20,11 @@ const Header = () => {
                             <li className="nav-item">
                                 <Link className={`nav-link ${location.pathname === "/tournament" ? "active" : ""}`} to="/tournament">Tournament</Link>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <li className="nav-item dropdown">
+                                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Document
                                 </a>
-                                <ul class="dropdown-menu">
+                                <ul className="dropdown-menu">
                                     <li><Link className={`dropdown-item ${location.pathname === "/document" ? "active" : ""}`} to="/document">Document</Link></li>
                                     <li><Link className={`dropdown-item ${location.pathname === "/article" ? "active" : ""}`} to="/article">Article</Link></li>
                                 </ul>

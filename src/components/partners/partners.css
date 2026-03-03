@@ -1,12 +1,1 @@
-.partner-img-holder {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
-}
-
-.partner-img-holder img {
-    width: 250px;
-}
+.partner-img-holder{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:center;align-items:center;gap:100px}.partner-img-holder img{width:250px}
