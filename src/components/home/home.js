@@ -12,7 +12,7 @@ const Home = () => {
             <Header />
             <div className='container-fluid p-0'>
                 <div className='image-holder'>
-                    <img src={img1} priority className='p-0 m-0' alt="Balkan Promises Hero" />
+                    <img src={img1} fetchpriority="high" loading="eager" className='p-0 m-0' alt="Balkan Promises Hero" />
                     <div className='text-holder text-center'>
                         <h1>BALKAN PROMISES</h1>
                         <h3>Football Tournament</h3>
