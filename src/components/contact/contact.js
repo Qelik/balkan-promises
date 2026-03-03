@@ -16,12 +16,12 @@ const Contact = () => {
                         <div className='person'>
                             <p>AGRON MERKO</p>
                             <p>Tournament President</p>
-                            <Link to="tel:+38978341646">+38978341646</Link>
+                            <Link to="tel:+38978341646">+389 78 341 646</Link>
                         </div>
                         <div className='person'>
-                            <p>PAVLI BUNECI & YOUNG STARS TOURNAMENTS</p>
-                            <p>Coordinator for Albania | Montenegro | Greece</p>
-                            <Link to="tel:+355674911775">+ 355 67 491 1775 </Link> &nbsp;&nbsp; : &nbsp; <Link to="tel:+355693381633">+355 69 338 1633</Link>
+                            <p>Ndinjon Permeti - NINI</p>
+                            <p>Coordinator for Albania</p>
+                            <Link to="tel:+355674911775">+355 69 949 5345 </Link>
                         </div>
                         <div className='person'>
                             <p>NEXHAT SADRIA</p>
@@ -31,7 +31,7 @@ const Contact = () => {
                         <div className='person'>
                             <p>ALEKSANDAR STRUMOSKI</p>
                             <p>Coordinator for North Macedonia | Bulgaria | Romania | Turkey | Serbia</p>
-                            <Link to="tel:+38978550087">+38978550087</Link>
+                            <Link to="tel:+38978550087">+389 78 550 087</Link>
                         </div>
                         <div className='person'>
                             <p>Sladjan Mariç</p>
