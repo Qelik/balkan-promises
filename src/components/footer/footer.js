@@ -54,9 +54,9 @@ const Footer = () => {
                         <p>MITKO STOJANOSKI</p>
                         <p>Director of the Tournament</p>
                         <hr />
-                        <p>PAVLI BUNECI & YOUNG STARS TOURNAMENTS</p>
-                        <p>Coordinator for Albania | Kosova | Montenegro | Greece</p>
-                        <Link to="tel:+355674911775">+ 355 67 491 1775 </Link> &nbsp;&nbsp; : &nbsp; <Link to="tel:+355693381633">+355 69 338 1633</Link>
+                        <p>Ndinjon Permeti - NINI</p>
+                        <p>Coordinator for Albania</p>
+                        <Link to="tel:+355699495345">+355 69 949 5345 </Link>
                     </div>
                 </div>
             </div>
